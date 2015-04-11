@@ -1,1 +1,1 @@
-# node-js-lorem-ispum-generator
+# lorem-ispum-generator
