@@ -1,0 +1,49 @@
+<div class="my-wrapper my-lorem-wrapper">
+    <div id="container" class="my-lorem-container">
+        <div class="ui large message" style="text-align: center">
+            <div class="header">
+                copy it!
+            </div>
+            <textarea id="textarea-lorem" cols="50" rows="13">{{Lorem ipsum}}</textarea>
+        </div>
+
+        <div class="ui black message" style="text-align: center">
+            <div class="header">
+                Lorem Ipsum generator!
+            </div>
+            <p>choose amount of words/ letters/ paragraphs</p>
+        </div>
+        <form id="form" class="ui warning form segment" method="post" action="/lorem">
+            <div class="fields">
+                <div class="field" style="padding-left: 5%">
+                    <input placeholder="0" type="number" name="amount" id="amount" min="0">
+
+                    <div class="ui selection dropdown">
+                        <input type="hidden" name="selection">
+
+                        <div class="default text">amount of</div>
+                        <i class="dropdown icon"></i>
+
+                        <div class="menu my-menu">
+                            <div class="item" data-value="letters">letters</div>
+                            <div class="item" data-value="words">words</div>
+                            <div class="item" data-value="paragraph">paragraphs</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="ui horizontal header divider">
+                <p>!</p>
+            </h4>
+            <div class="ui huge buttons">
+                <input type="submit" name="generate" id="generate" class="ui positive button" value="ipsum it!">
+                <div class="or"></div>
+                <a href="./" class="ui  button">back</a>
+
+                <!--<div class="ui button">Two</div>-->
+            </div>
+
+
+        </form>
+    </div>
+</div>
