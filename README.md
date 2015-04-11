@@ -1,1 +1,1 @@
-# lorem ispum - generator
+# Simple lorem ispum - generator
