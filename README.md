@@ -1,4 +1,4 @@
-# Simple lorem ispum - generator
+# Simple lorem ipsum - generator
 
 This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</em>
 
