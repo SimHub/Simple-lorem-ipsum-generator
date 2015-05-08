@@ -6,8 +6,6 @@ This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</e
 1. Install Node.js  
 2. Download .zip file or clone repository
 
-# npm
-. npm install --save simpleloremipsumgenerator
 
 #Usage
 3. Open the terminal

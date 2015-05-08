@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   'simpleloremipsumgenerator@1.0.2' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose publish [ 'simpleloremipsumgenerator@1.0.2' ]
+5 silly cache add args [ 'simpleloremipsumgenerator@1.0.2', null ]
+6 verbose cache add spec simpleloremipsumgenerator@1.0.2
+7 silly cache add parsed spec { raw: 'simpleloremipsumgenerator@1.0.2',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'simpleloremipsumgenerator',
+7 silly cache add   rawSpec: '1.0.2',
+7 silly cache add   spec: '1.0.2',
+7 silly cache add   type: 'version' }
+8 verbose addNamed simpleloremipsumgenerator@1.0.2
+9 silly addNamed semver.valid 1.0.2
+10 silly addNamed semver.validRange 1.0.2
+11 silly mapToRegistry name simpleloremipsumgenerator
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/simpleloremipsumgenerator
+15 verbose addNameVersion registry:https://registry.npmjs.org/simpleloremipsumgenerator not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/simpleloremipsumgenerator
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 11:35:15 AM
+19 verbose request using bearer token for auth
+20 verbose request id 3ea58fb9058c0d2f
+21 http request GET https://registry.npmjs.org/simpleloremipsumgenerator
+22 http 404 https://registry.npmjs.org/simpleloremipsumgenerator
+23 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   etag: '"ARHH8XSEAYYOYM8RL8XT7QL6K"',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '433',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Fri, 08 May 2015 09:35:16 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1431077715.942659,VS0,VE107',
+23 verbose headers   vary: 'Accept' }
+24 silly get cb [ 404,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"ARHH8XSEAYYOYM8RL8XT7QL6K"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=0',
+24 silly get     'content-length': '433',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Fri, 08 May 2015 09:35:16 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-fra1226-FRA',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1431077715.942659,VS0,VE107',
+24 silly get     vary: 'Accept' } ]
+25 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/simpleloremipsumgenerator
+25 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:244:14)
+25 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
+25 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:344:22)
+25 verbose stack     at Request.emit (events.js:110:17)
+25 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1239:14)
+25 verbose stack     at Request.emit (events.js:129:20)
+25 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1187:12)
+25 verbose stack     at IncomingMessage.emit (events.js:129:20)
+25 verbose stack     at _stream_readable.js:908:16
+25 verbose stack     at process._tickCallback (node.js:355:11)
+26 verbose statusCode 404
+27 verbose pkgid simpleloremipsumgenerator
+28 verbose cwd /Users/simonlackmann/My_PORTFOLIO/NODEjs/simpleloremipsumgenerator
+29 error Darwin 14.3.0
+30 error argv "node" "/usr/local/bin/npm" "publish" "simpleloremipsumgenerator@1.0.2"
+31 error node v0.12.0
+32 error npm  v2.5.1
+33 error code E404
+34 error 404 Registry returned 404 for GET on https://registry.npmjs.org/simpleloremipsumgenerator
+34 error 404
+34 error 404 'simpleloremipsumgenerator' is not in the npm registry.
+34 error 404 You should bug the author to publish it (or use the name yourself!)
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, http url, or git url.
+35 verbose exit [ 1, true ]
