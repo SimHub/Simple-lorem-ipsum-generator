@@ -1,6 +1,6 @@
 {
   "name": "simpleloremispumgenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a \"simple lorem ispum - generator - website\" - written in Node.js",
   "main": "app.js",
   "scripts": {
