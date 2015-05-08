@@ -4,8 +4,10 @@ This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</e
 
 # Installation
 1. Install Node.js  
-2. Download .zip file or clone repository
-
+2. Download .zip file or clone repository  
+  
+#npm  
+npm install simpleloremipsumgenerator
 
 #Usage
 3. Open the terminal
