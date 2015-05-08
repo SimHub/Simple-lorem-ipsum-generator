@@ -3,18 +3,18 @@
 This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</em>
 
 # Installation
-1. Install Node.js  
+<pre>1. Install Node.js  
 2. Download .zip file or clone repository  
-  
+</pre>  
 #npm  
-npm install simpleloremipsumgenerator
+<pre>npm install simpleloremipsumgenerator</pre>
 
 #Usage
-3. Open the terminal
+<pre>3. Open the terminal
 4. cd <small>(<em>change directory</em> )</small>  into the 'simpleloremipsumgenerator folder
 5. Use Terminal command: node app.js
 6. Open Browser[ [Server-host] : 3000 ]  
-
+</pre>
 #The MIT License (MIT)
  
  Copyright (c) [2015] [Simon Lackmann]
