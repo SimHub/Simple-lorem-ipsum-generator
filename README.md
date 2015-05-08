@@ -11,9 +11,9 @@ This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</e
 
 #Usage
 3. Open the terminal
-4. cd <small>(<em>change directory</em> )</small>  into the 'simpleloremipslsumgenerator folder
+4. cd <small>(<em>change directory</em> )</small>  into the 'simpleloremipsumgenerator folder
 5. Use Terminal command: node app.js
-6. Open Browser[ [Server-host] : 3000 ]
+6. Open Browser[ [Server-host] : 3000 ]  
 
 #The MIT License (MIT)
  

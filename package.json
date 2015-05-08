@@ -1,19 +1,19 @@
 {
-  "name": "simpleloremispumgenerator",
-  "version": "1.0.1",
-  "description": "This is a \"simple lorem ispum - generator - website\" - written in Node.js",
+  "name": "simpleloremipsumgenerator",
+  "version": "1.0.0",
+  "description": "This is a \"simple lorem ipsum - generator - website\" - written in Node.js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SimHub/Simple-lorem-ispum-generator.git"
+    "url": "https://github.com/SimHub/Simple-lorem-ipsum-generator.git"
   },
   "keywords": [
     "simple",
     "lorem",
-    "ispums",
+    "ipsums",
     "lorem",
     "ispum",
     "node",
@@ -31,7 +31,7 @@
   "author": "simon lackmann <lackmann.simon@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SimHub/Simple-lorem-ispum-generator/issues"
+    "url": "https://github.com/SimHub/Simple-lorem-ipsum-generator/issues"
   },
-  "homepage": "https://github.com/SimHub/Simple-lorem-ispum-generator"
+  "homepage": "https://github.com/SimHub/Simple-lorem-ipsum-generator"
 }
