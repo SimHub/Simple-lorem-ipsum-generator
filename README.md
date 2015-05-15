@@ -1,5 +1,7 @@
 # Simple lorem ipsum - generator
 
+[![Join the chat at https://gitter.im/SimHub/Simple-lorem-ipsum-generator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SimHub/Simple-lorem-ipsum-generator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</em>
 
 # Installation
