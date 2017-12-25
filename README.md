@@ -7,7 +7,8 @@ This is a "simple lorem ipsum - generator - website" - <em>written in Node.js</e
 2. Download .zip file or clone repository  
 </pre>  
         
-### NPM  [![npm](https://img.shields.io/npm/v/simpleloremipsumgenerator.svg?style=flat-square)](https://www.npmjs.com/package/simpleloremipsumgenerator)  
+### NPM  
+[![npm](https://img.shields.io/npm/v/simpleloremipsumgenerator.svg?style=flat-square)](https://www.npmjs.com/package/simpleloremipsumgenerator)  
 
     $ npm install simpleloremipsumgenerator
 
